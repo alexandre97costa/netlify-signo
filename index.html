@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getyourshit2gether</title>
+<script defer src="main.js"></script></head>
+
+<body>
+    <!-- <div id="a">Teste</div> -->
+    <header>
+        <div class="rounded-pill">
+            <p>&#x1f32d;</p>
+        </div>
+    </header>
+
+    <div id="bottom-container">
+        <!-- vai ter 3 containers, que se vao expandir em :hover -->
+        <div id="sub1" class="b-sub-container">
+            <div class="fake-img">x</div>
+            <div class="fake-border">
+                <h2>Trabalhos</h2>
+                <p>Lorem ipsum bla bla bla bla bla</p>
+            </div>
+        </div>
+        <div id="sub2" class="b-sub-container">
+            <div class="fake-border">
+                <h1>Vamos ser parceiros!</h1>
+                <p>Lorem ipsum bla bla bla bla bla</p>
+            </div>
+        </div>
+        <div id="sub3" class="b-sub-container">
+            <div class="fake-img">x</div>
+
+            <div class="fake-border">
+                <h2>Sobre mim</h2>
+                <p>Lorem ipsum bla bla bla bla bla</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu" class="container" style="display: none;">
+        <div class="row">
+            <div class="col-4">O meu trabalho</div>
+            <div class="col-4">Vamos ser parceiros!</div>
+            <div class="col-4">Sobre mim</div>
+        </div>
+    </div>
+
+    <ul style="display: none;">
+        <li><button type="button" class="my-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Trabalhos passados</button></li>
+        <li><button type="button" class="my-btn">Vamos trabalhar juntos!</button></li>
+        <li><button type="button" class="my-btn">Sobre mim</button></li>
+    </ul>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content roundy shadow-3d">
+                <div class="modal-header-container">
+                    <!--
+                    <svg height="20px" width="80px">
+                        <circle cx="10px" cy="10px" r="10" fill="white"/>
+                        <circle cx="40px" cy="10px" r="10" fill="white"/>
+                        <circle cx="70px" cy="10px" r="10" fill="white"/>
+                    </svg> -->
+                    <div class="circle rounded-pill shadow-3d"></div>
+                    <div class="circle rounded-pill shadow-3d"></div>
+                    <div class="circle rounded-pill shadow-3d"></div>
+                    <h1>Amanda-me um email, yo</h1>
+                </div>
+
+                <hr class="rounded-pill shadow-3d">
+
+                <div class="input-container">
+                    <input class="rounded-pill shadow-baixo" type="email"
+                        placeholder="&#9755; o teu email aqui &#9754;" />
+                </div>
+                <div class="abc roundy shadow-3d">
+                    <p class="fat">Teste de cenas nué</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
